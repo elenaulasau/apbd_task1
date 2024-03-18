@@ -5,12 +5,12 @@ Console.WriteLine("Modification 3");
 
 static int ArrAverage(int[] arr)
 {
-    int sum = 0;
+    int res = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        sum += arr[i];
+        res = res + arr[i];
     }
-    return sum;
+    return res;
 }
 
 static int FindMax(int[] arr)
